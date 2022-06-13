@@ -83,10 +83,11 @@
     .nav-menu {
       display: flex;
       flex-direction: column;
+      justify-content: center;
       width: 100%;
-      height: 90vh;
+      height: 50vh;
       position: absolute;
-      top: 80px;
+      top: 60px;
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
@@ -102,7 +103,6 @@
   
     .nav-links {
       text-align: center;
-      padding: 2rem;
       width: 100%;
       display: table;
     }
@@ -115,7 +115,7 @@
   
     .navbar-logo {
       position: absolute;
-      top: 0;
+      top: -10px;
       left: 0;
       transform: translate(25%, 50%);
     }
@@ -126,13 +126,13 @@
       top: 0;
       right: 0;
       transform: translate(-100%, 60%);
-      font-size: 1.8rem;
+      font-size: 1.3rem;
       cursor: pointer;
     }
   
     .fa-times {
       color: #fff;
-      font-size: 2rem;
+      font-size: 1.3rem;
     }
   
     .nav-links-mobile {
