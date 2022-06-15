@@ -1,11 +1,23 @@
-import React from 'react'
-import '../App.css'
-import { Button } from './Button'
-import './Hero.css'
+import React from 'react';
+import '../App.css';
+import { Button } from './Button';
+import './Hero.css';
+
+
+// function ResumeVideo(){
+//   const heroImage = document.getElementById('hero-container');
+//   if (heroImage.style.background === 'center center/cover no-repeat'){
+//     heroImage.style.backgroundImage = "url('../../public/images/img-home.jpg')";
+//   }else{
+//     heroImage.style.background = 'center center/cover no-repeat';
+//   }
+// }
+
 
 function Hero() {
+
   return (
-    <div className='hero-container'>
+    <div className='hero-container' id='hero-container'>
         <video src='/videos/video-2.mp4' autoPlay loop muted />
         <h1>Adventure awaits</h1>
         <p>What are you waiting for?</p>
@@ -14,7 +26,7 @@ function Hero() {
                 GET STARTED
             </Button>
             <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
-                watch trailer <i className='far fa-play-circle'></i>
+                WATCH TRAILER <i className='far fa-play-circle'></i>
             </Button>
         </div>
     </div>

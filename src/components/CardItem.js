@@ -11,6 +11,10 @@ function CardItem(props) {
                 </figure>
                 <div className="cards-item-info">
                     <h5 className='cards-item-text'>{props.text}</h5>
+                    <div className="cards-item-details">
+                        <p className="cards-item-location"><i className="far fa-compass"></i> {props.location}</p>
+                        <p className="cards-item-activity"><i className="fas fa-cocktail"></i> {props.activity}</p>
+                    </div>
                 </div>
             </Link>
         </li>

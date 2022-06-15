@@ -1,0 +1,64 @@
+.products{
+    flex-direction: column;
+}
+.hero-btns{
+    margin-top: 0;
+}
+.products-heading{
+    color: #fff;
+    font-size: 100px;
+}
+.products-text {
+    font-size: 30px;
+}
+.location-card-wrapper{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.products-container{
+    background-color: #fff9e6;
+    background-position: center;
+    background-size: cover;
+    background-position: fixed;
+    padding-bottom: 10rem;
+}
+.location-card-wrapper{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.location-card-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.location-card-item-img{
+    width: 100%;
+}
+.location-card-info{
+    padding: 0 3rem;
+    background-color: white;
+    width: 70%;
+}
+.location-card-text{
+    color:#1f98f4;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.location-card-item-description{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+}
+.location-card-detail{
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
