@@ -1,6 +1,5 @@
 .cards {
     padding: 4rem;
-    background: #fff;
   }
   
   h1 {
@@ -30,6 +29,7 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    background: #fff;
   }
   
   .cards-item-link {
@@ -125,5 +125,11 @@
   @media only screen and (max-width: 1024px) {
     .cards-item {
       margin-bottom: 2rem;
+    }
+    .cards{
+      padding: 2rem;
+    }
+    .cards-item{
+      margin: auto;
     }
   }

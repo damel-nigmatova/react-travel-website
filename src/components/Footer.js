@@ -31,7 +31,7 @@ function Footer() {
                         <Link to='/sign-up'>Contacts</Link>
                     </div>
                     <div className="footer-link-items">
-                        <h2>Marketing</h2>
+                        <h2>Media</h2>
                         <Link to='/sign-up'>Influencers</Link>
                         <Link to='/sign-up'>Ambassadors</Link>
                         <Link to='/sign-up'>Agency</Link>
@@ -47,7 +47,7 @@ function Footer() {
                         <Link to='/sign-up'>Terms of Service</Link>
                     </div>
                     <div className="footer-link-items">
-                        <h2>Social Media</h2>
+                        <h2>Contacts</h2>
                         <Link to='/sign-up'>Instagram</Link>
                         <Link to='/sign-up'>Facebook</Link>
                         <Link to='/sign-up'>Twitter</Link>

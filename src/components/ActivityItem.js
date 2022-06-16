@@ -13,7 +13,7 @@ function ActivityItem(props) {
                 <h5 className='activities-item-text'>{props.text}</h5>
                 <p className="activities-item-description">{props.description}</p>
             </div>
-            <Link className="activities-item-link" to='./sign-up'>
+            <Link className="activities-item-link" to='./contacts'>
                 <button className="activities-btn">
                     Learn more
                 </button>

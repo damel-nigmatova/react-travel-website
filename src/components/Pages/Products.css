@@ -12,15 +12,16 @@
     font-size: 30px;
 }
 .location-card-wrapper{
-    background-color: #fff;
+    background-color: #242424;
     border-radius: 10px;
+    color: white;
 }
 .products-container{
-    background-color: #fff9e6;
+    background-color: #fff;
     background-position: center;
     background-size: cover;
     background-position: fixed;
-    padding-bottom: 10rem;
+    padding-bottom: 7rem;
 }
 .location-card-wrapper{
     display: flex;
@@ -29,6 +30,9 @@
     max-width: 1120px;
     width: 100%;
     margin: 0 auto;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
 }
 
 .location-card-wrapper{
@@ -39,26 +43,85 @@
 }
 .location-card-item-img{
     width: 100%;
+    border-radius: 10px;
+    margin: 1rem 0 1rem 1rem;
 }
 .location-card-info{
     padding: 0 3rem;
-    background-color: white;
     width: 70%;
 }
-.location-card-text{
+.location-card-text, .reviews-text{
     color:#1f98f4;
     font-size: 40px;
     text-transform: uppercase;
     margin: 1rem 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.location-card-item-description{
+.location-card-item-description, .reviews-description{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 13px;
     line-height: 20px;
 }
-.location-card-detail{
+.location-card-detail, .reviews-detail{
     text-transform: uppercase;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
 }
+.carousel-images{
+    margin: 7rem auto 0 auto;
+    max-width: 1120px;
+    width: 100%;
+}
+.reviews-items{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.reviews-item-img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.reviews-item-text{
+    text-align: center;
+    padding-top: 2rem;
+    padding: 2rem 2rem 0 2rem;
+}
+.reviews-stars{
+    color: rgb(255, 213, 0);
+    text-align: center;
+    margin: 1rem 1rem 2rem 1rem;
+}
+.reviews-text{
+    margin-top: 0;
+}
+h2{
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #242424;
+}
+
+@media only screen and (max-width: 960px) {
+    .products-heading, .products-text{
+        text-align: center;
+    }
+    .products-heading{
+        font-size: 50px;
+    }
+    .products-text{
+        font-size: 20px;
+    }
+    .location-card-wrapper{
+        flex-wrap: wrap;
+    }
+    .location-card-info{
+        padding: 2rem 2rem 3rem 2rem;
+        width: 100%;
+    }
+    .location-card-item-img{
+        margin: auto;
+    }
+  }

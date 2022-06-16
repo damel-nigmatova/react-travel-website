@@ -1,0 +1,82 @@
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero-btns{
+    margin-top: 0;
+    text-align: center;
+}
+.btns:hover{
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+}
+.contacts-heading{
+    font-size: 80px;
+}
+.contacts-text {
+    font-size: 25px;
+    padding: 1rem;
+}
+.contacts-heading i{
+    font-size: 80px;
+}
+.contact-item{
+    padding: 10%;
+}
+.btns{
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    border: 1px solid #fff;
+    padding: 12px 26px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.contact-details{
+    font-size: 25px;
+    padding: 1rem;
+}
+.contact-item:nth-child(1){
+    background-image: url('../../../public/images/img-3.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 15% 5% 5% 5%;
+    text-align: center;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 960px){
+    .contacts{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .contact-item:nth-child(1){
+        width: 100%;
+        height: auto;
+        padding: 15%;
+    }
+    .contact-details{
+        font-size: 20px;
+        text-align: center;
+    }
+    .contacts-heading{
+        font-size: 40px;
+    }
+    .contacts-heading i{
+        font-size: 40px;
+    }
+    .contacts-text {
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
